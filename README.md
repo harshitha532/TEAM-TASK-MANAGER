@@ -23,21 +23,22 @@ A full-stack web application where users can create projects, assign tasks, and 
 ---
 
 2. Backend Setup
- -cd server
- -npm install
+ 
+ - cd server
+ - npm install
 
 ----
 
 Create .env:
- -MONGO_URI=your_mongodb_uri
- -JWT_SECRET=your_secret
+  - MONGO_URI=your_mongodb_uri
+  - JWT_SECRET=your_secret
 
 Run:
- -node server.js
+  - node server.js
 
 ---
 
 3. Frontend Setup
- -cd client
- -npm install
- -npm start
+ - cd client
+ - npm install
+ - npm start
